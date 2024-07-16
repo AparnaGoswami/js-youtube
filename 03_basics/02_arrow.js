@@ -13,7 +13,7 @@ const user={
 // user.name="aanu"
 // user.welcomeMsg()
 
-//console.log(this);
+// console.log(this);
 
 // function chai() {
 //     let username= "aparna"
@@ -28,15 +28,23 @@ const user={
 // }
 
 
-const chai= () => {
-    let username= "aparna"
-    console.log(this);
-    console.log(this.username);
-}
-//chai()
+// const chai= () => {
+//     let username= "aparna"
+//     console.log(this);
+//     console.log(this.username);
+// }
+// chai()
 
 
-const addTwo = (num1,num2)=>{
-    return num1 + num2;
-}
-console.log(addTwo(3,4));
+// const addTwo = (num1,num2)=>{
+//     return num1 + num2;
+// }
+
+
+//const addTwo = (num1,num2)=>  num1 + num2;        //implicit return
+
+// const addTwo = (num1,num2)=> ( num1 + num2 );
+
+const addTwo = (num1,num2)=>  ( {username:"Aparna"} )
+
+//console.log(addTwo(3,4));
