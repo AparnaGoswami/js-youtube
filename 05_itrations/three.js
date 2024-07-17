@@ -6,13 +6,13 @@
 // })
 
 
-// console.log(values);
+//console.log(values);
 
 
 const myNums=[1,2,3,4,5,6,7,8,9,10]
 
-// let newNums=myNums.filter( (num)=>(num>4))
-// console.log(newNums);
+let newNums=myNums.filter( (num)=>(num>4))
+console.log(newNums);
 
 // let newNums=myNums.filter( (num)=>{
 //     return num>4
@@ -20,7 +20,7 @@ const myNums=[1,2,3,4,5,6,7,8,9,10]
 // console.log(newNums);
 
 
-const newNums=[]
+//const newNums=[]
 
 myNums.forEach( (num)=>{
     if(num>4){
@@ -48,4 +48,4 @@ const books = [
     return bk.publish>=2000 || bk.genre=='Science'
   })
 
-  console.log(userBooks);
+  //console.log(userBooks);
